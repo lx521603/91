@@ -2,38 +2,23 @@
 import type { DropdownMenuItem } from '@nuxt/ui'
 
 const items: DropdownMenuItem[] = [{
-  label: 'Starter',
-  to: 'https://starter-template.nuxt.dev/'
+  label: ' Mirai Studio',
+  to: 'https://mirai.st/'
 }, {
-  label: 'Landing',
-  to: 'https://landing-template.nuxt.dev/'
+  label: 'Zaeth.com',
+  to: 'https://zaeth.com/'
 }, {
-  label: 'Docs',
-  to: 'https://docs-template.nuxt.dev/'
-}, {
-  label: 'SaaS',
-  to: 'https://saas-template.nuxt.dev/'
-}, {
-  label: 'Dashboard',
-  to: 'https://dashboard-template.nuxt.dev/'
-}, {
-  label: 'Chat',
-  to: 'https://chat-template.nuxt.dev/'
-}, {
-  label: 'Portfolio',
-  to: 'https://portfolio-template.nuxt.dev/'
-}, {
-  label: 'Changelog',
-  to: 'https://changelog-template.nuxt.dev/',
+  label: 'Asura',
+  to: '/',
   color: 'primary',
   checked: true,
   type: 'checkbox'
 }, {
-  label: 'Editor',
-  to: 'https://editor-template.nuxt.dev/'
+  label: 'sai.st',
+  to: 'https://sai.st/'
 }, {
-  label: 'Calendar',
-  to: 'https://calendar-template.nuxt.dev/'
+  label: '相册',
+  to: 'https://next.yt/'
 }]
 </script>
 
@@ -47,7 +32,7 @@ const items: DropdownMenuItem[] = [{
     size="xs"
   >
     <UButton
-      label="Changelog"
+      label="Asura"
       color="primary"
       variant="subtle"
       trailing-icon="i-lucide-chevron-down"

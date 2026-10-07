@@ -7,12 +7,12 @@ useHead({
     { rel: 'icon', href: '/favicon.ico' }
   ],
   htmlAttrs: {
-    lang: 'en'
+    lang: 'zh_CN'
   }
 })
 
-const title = 'Nuxt Changelog Template'
-const description = 'Display GitHub release notes as a beautiful changelog for any repository with this Nuxt UI template.'
+const title = 'Asura'
+const description = 'asura.im'
 
 useSeoMeta({
   title,
@@ -28,22 +28,22 @@ useSeoMeta({
   <UApp>
     <div class="min-h-screen xl:grid xl:grid-cols-2">
       <UPageSection
-        title="Release Notes"
-        description="Display GitHub release notes as a beautiful changelog for any repository with this Nuxt UI template."
+        title="不追赶季节，只按自己的节奏发芽。"
+        description="在喧嚣之外，圈一块地，种自己的花。"
         orientation="vertical"
         :links="[{
-          label: 'Documentation',
+          label: 'Mirai Studio',
           icon: 'i-lucide-book-open',
           variant: 'ghost',
           size: 'md',
-          to: 'https://ui.nuxt.com/getting-started/installation/nuxt',
+          to: 'https://mirai.st',
           target: '_blank'
         }, {
-          label: 'GitHub',
-          icon: 'i-simple-icons-github',
+          label: 'Gallery',
+          icon: 'i-lucide-image',
           variant: 'ghost',
           size: 'md',
-          to: 'https://github.com/nuxt-ui-templates/changelog',
+          to: 'https://next.yt',
           target: '_blank'
         }]"
         :ui="{
