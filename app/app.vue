@@ -26,20 +26,20 @@ useSeoMeta({
 
 <template>
   <UApp>
-    <div class="min-h-screen xl:grid xl:grid-cols-2">
+    <div class="min-h-screen xl:grid xl:grid-cols-[3fr_7fr]">
       <UPageSection
         title="不追赶季节，只按自己的节奏发芽。"
         description="在喧嚣之外，圈一块地，种自己的花。"
         orientation="vertical"
         :links="[{
           label: 'Mirai Studio',
-          icon: 'i-lucide-book-open',
+          icon: 'i-lucide-store',
           variant: 'ghost',
           size: 'md',
           to: 'https://mirai.st',
           target: '_blank'
         }, {
-          label: 'Gallery',
+          label: '我的相册',
           icon: 'i-lucide-image',
           variant: 'ghost',
           size: 'md',
