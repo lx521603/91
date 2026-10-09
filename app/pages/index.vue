@@ -38,7 +38,7 @@ useSeoMeta({
       v-bind="version"
       :ui="{
         root: 'flex items-start',
-        container: 'max-w-3xl min-w-0',
+        container: 'max-w-full sm:max-w-xl lg:max-w-2xl min-w-0 lg:ms-72',
         header: 'border-b border-default pb-4',
         title: 'text-3xl',
         date: 'text-xs/9 text-highlighted font-mono',
