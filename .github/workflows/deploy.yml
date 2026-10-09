@@ -57,6 +57,7 @@ jobs:
           script: |
             # 切换到目标目录
             cd /opt/asura/
+            echo "MY_GITHUB_TOKEN=${{ secrets.MY_GITHUB_TOKEN }}" > /opt/asura/.env
             
             echo "=== 优雅重启 Nuxt 服务 ==="
             # 逻辑：如果进程 'nuxt-app' 存在则重启，如果是第一次部署不存在，则直接启动它
